@@ -11,8 +11,7 @@ void main() {
         ),
         body: const Center(
           child: Image(
-            image: NetworkImage(
-                'https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png'),
+            image: AssetImage('images/cat_demo.jpeg'),
           ),
         ),
       ),
